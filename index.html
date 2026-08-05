@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الرافعات الاحترافيه للرافعات والمعدات الثقيلة | حلول التأجير والبيع المتكاملة</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="شركة متخصصة في تأجير وبيع الرافعات والمعدات الثقيلة، رافعات برجية، بوم لفت، مان لفت، ورافعات شوكية بأعلى معايير الجودة والموثوقية.">
+    <meta name="keywords" content="تأجير رافعات, بيع معدات ثقيلة, كرينات, Scissor Lift, Boom Lift, Forklift, كرين ,معدات بناء,فوركلفت ,رافعه شوكيه,سيزرلفت,مان لفت,رافعه سله ,باسكت">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts (Cairo) -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            yellow: '#F59E0B', // أصفر صناعي مميز
+                            dark: '#0F172A',   // كحلي داكن جداً
+                            navy: '#1E293B',   // أزرق داكن
+                            gray: '#64748B'    // رمادي صناعي
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Cairo', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-bg {
+            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), 
+                        url('img/4.png');
+            background-size: cover;
+            background-position: center;
+            
+        }
+    </style>
+</head>
+<body class="font-sans bg-slate-50 text-slate-800">
+
+    <!-- Header / Navbar -->
+    <header class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur-md border-b border-slate-700 text-white">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="#" class="flex items-center gap-3 text-2xl font-black text-brand-yellow craning-wider">
+                <i class="fa-solid font-black fa-truck-pickup text-3xl"></i>
+                <span>الرافعات الاحترافيه <span class="text-white text-base font-normal"> لرافعات والمعدات الثقيلة  </span></span>
+            </a>
+
+            <!-- Navigation Links (Desktop) -->
+            <nav class="hidden md:flex gap-8 font-semibold text-sm">
+                <a href="#hero" class="hover:text-brand-yellow transition-colors">الرئيسية</a>
+                <a href="#equipment" class="hover:text-brand-yellow transition-colors">المعدات والرافعات</a>
+                <a href="#features" class="hover:text-brand-yellow transition-colors">لماذا نحن؟</a>
+                <a href="#gallery" class="hover:text-brand-yellow transition-colors">معرض الصور</a>
+                <a href="#contact" class="hover:text-brand-yellow transition-colors">تواصل معنا</a>
+            </nav>
+
+            <!-- Call to Action Button -->
+            <div class="hidden md:block">
+                <a href="#contact" class="bg-brand-yellow text-brand-dark px-5 py-2.5 rounded-lg font-bold hover:bg-yellow-400 transition-all shadow-lg hover:shadow-yellow-500/20">
+                    اطلب عرض سعر
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden text-2xl text-white focus:outline-none">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-navy border-b border-slate-700 px-4 py-4 flex flex-col gap-4">
+            <a href="#hero" class="mobile-link text-white hover:text-brand-yellow">الرئيسية</a>
+            <a href="#equipment" class="mobile-link text-white hover:text-brand-yellow">المعدات والرافعات</a>
+            <a href="#features" class="mobile-link text-white hover:text-brand-yellow">لماذا نحن؟</a>
+            <a href="#gallery" class="mobile-link text-white hover:text-brand-yellow">معرض الصور</a>
+            <a href="#contact" class="mobile-link text-white hover:text-brand-yellow">تواصل معنا</a>
+            <a href="#contact" class="bg-brand-yellow text-brand-dark text-center py-2 rounded-lg font-bold">اطلب عرض سعر</a>
+        </div>
+    </header>
+
+    <!-- 1. Hero Section -->
+    <section id="hero" class="hero-bg min-h-[85vh] flex items-center text-white relative">
+        <div class="container mx-auto px-4 py-20">
+            <div class="max-w-3xl">
+                <span class="bg-brand-yellow/20 text-brand-yellow px-4 py-1.5 rounded-full text-sm font-bold border border-brand-yellow/30 inline-block mb-4">
+                    <i class="fa-solid fa-shield-halved ml-2"></i> القوة، الأمان، والموثوقية
+                </span>
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+                    حلول متكاملة لتأجير وبيع <span class="text-brand-yellow">الرافعات والمعدات الثقيلة</span>
+                </h1>
+                <p class="text-lg md:text-xl text-slate-300 mb-8 leading-relaxed">
+                    نوفر أسطولاً حديثاً ومتكاملاً من الرافعات والمعدات الثقيلة للمشاريع الإنشائية والصناعية مع التزام تام بأعلى معايير السلامة والجودة ودعم فني على مدار الساعة.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#contact" class="bg-brand-yellow text-brand-dark text-center px-8 py-4 rounded-xl font-bold text-lg hover:bg-yellow-400 transition-all shadow-lg hover:shadow-yellow-500/30">
+                        اطلب عرض سعر الان <i class="fa-solid fa-arrow-left mr-2"></i>
+                    </a>
+                    <a href="#equipment" class="border border-slate-500 hover:bg-white/10 text-center px-8 py-4 rounded-xl font-bold text-lg transition-all backdrop-blur-sm">
+                        استكشف المعدات
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Equipment & Services Section -->
+    <section id="equipment" class="py-20 bg-slate-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">أسطول الرافعات والمعدات</h2>
+                <div class="w-20 h-1.5 bg-brand-yellow mx-auto mb-4 rounded-full"></div>
+                <p class="text-brand-gray">اختر من بين تشكيلتنا الواسعة من المعدات الثقيلة المجهزة بأحدث التقنيات لخدمة مختلف القطاعات.</p>
+            </div>
+
+            <!-- Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Card 1 -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-2xl transition-all duration-300 border border-slate-200">
+                  <img src="img/2.png" alt="وصف الصورة 1"  width="300"" alt="Electric Scissor Lift" class="w-full h-48 object-cover">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-brand-dark mb-2">رافعات مقصية (Scissor Lift)</h3>
+                        <p class="text-sm text-slate-600 mb-4 h-12">مثالية للأعمال الداخلية والمساحات الضيقة وتوفر منصة عمل واسعة وآمنة.</p>
+                        <div class="border-t border-slate-100 pt-3 text-xs text-slate-500 space-y-2 mb-6">
+                            <div class="flex justify-between"><span>سعة الرفع:</span> <strong class="text-slate-700">حتى 450 كجم</strong></div>
+                            <div class="flex justify-between"><span>ارتفاع العمل:</span> <strong class="text-slate-700">6 - 18 متر</strong></div>
+                        </div>
+                        <a href="#contact" class="block text-center w-full bg-slate-100 hover:bg-brand-yellow hover:text-brand-dark text-brand-navy font-bold py-2.5 rounded-lg transition-colors">طلب الخدمة</a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-2xl transition-all duration-300 border border-slate-200">
+                     <img src="img/1.png" alt="وصف الصورة 1" width="300" alt="Boom Lift" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-brand-dark mb-2">رافعات بوم لفت (Boom Lift)</h3>
+                        <p class="text-sm text-slate-600 mb-4 h-12">تمتلك ذراعاً مفصلياً للوصول إلى الأماكن المرتفعة والصعبة فوق العوائق.</p>
+                        <div class="border-t border-slate-100 pt-3 text-xs text-slate-500 space-y-2 mb-6">
+                            <div class="flex justify-between"><span>سعة الرفع:</span> <strong class="text-slate-700">حتى 430 كجم</strong></div>
+                            <div class="flex justify-between"><span>ارتفاع العمل:</span> <strong class="text-slate-700">15 - 70 متر</strong></div>
+                        </div>
+                        <a href="#contact" class="block text-center w-full bg-slate-100 hover:bg-brand-yellow hover:text-brand-dark text-brand-navy font-bold py-2.5 rounded-lg transition-colors">طلب الخدمة</a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-2xl transition-all duration-300 border border-slate-200">
+                    <img src="img/6.png" alt="وصف الصورة 1" width="300"" alt="Cranes" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-brand-dark mb-2">الرافعات البرجية والكرينات</h3>
+                        <p class="text-sm text-slate-600 mb-4 h-12">حلول الرفع الشاق للمشاريع الإنشائية الكبرى والمباني العالية.</p>
+                        <div class="border-t border-slate-100 pt-3 text-xs text-slate-500 space-y-2 mb-6">
+                            <div class="flex justify-between"><span>سعة الرفع:</span> <strong class="text-slate-700">حتى 1000 طن</strong></div>
+                            <div class="flex justify-between"><span>ارتفاع العمل:</span> <strong class="text-slate-700">حتى 80 متر</strong></div>
+                        </div>
+                        <a href="#contact" class="block text-center w-full bg-slate-100 hover:bg-brand-yellow hover:text-brand-dark text-brand-navy font-bold py-2.5 rounded-lg transition-colors">طلب الخدمة</a>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-2xl transition-all duration-300 border border-slate-200">
+                    <img src="img/7.png" alt="وصف الصورة 1" width="300"" alt="Forklift" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-brand-dark mb-2">الرافعات الشوكية (Forklifts)</h3>
+                        <p class="text-sm text-slate-600 mb-4 h-12">لعمليات التناول ومداولة البضائع والمواد في المستودعات والمواقع.</p>
+                        <div class="border-t border-slate-100 pt-3 text-xs text-slate-500 space-y-2 mb-6">
+                            <div class="flex justify-between"><span>سعة الرفع:</span> <strong class="text-slate-700">3 - 25 طن</strong></div>
+                            <div class="flex justify-between"><span>ارتفاع العمل:</span> <strong class="text-slate-700">3 - 7 متر</strong></div>
+                        </div>
+                        <a href="#contact" class="block text-center w-full bg-slate-100 hover:bg-brand-yellow hover:text-brand-dark text-brand-navy font-bold py-2.5 rounded-lg transition-colors">طلب الخدمة</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Features Section (لماذا نحن) -->
+    <section id="features" class="py-20 bg-brand-dark text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">لماذا تختار الرافعات الذكيه؟</h2>
+                <div class="w-20 h-1.5 bg-brand-yellow mx-auto mb-4 rounded-full"></div>
+                <p class="text-slate-400">نلتزم بتوفير أعلى مستويات الجودة والسلامة لتشغيل مشاريعكم بكفاءة ودون انقطاع.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-brand-navy p-8 rounded-2xl border border-slate-700 hover:border-brand-yellow transition-all">
+                    <div class="w-14 h-14 bg-brand-yellow/10 text-brand-yellow rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-truck-monster"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">أسطول حديث ومتنوع</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">معدات ورافعات حديثة من أفضل العلامات التجارية العالمية المجهزة بأحدث تقنيات الأمان.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-brand-navy p-8 rounded-2xl border border-slate-700 hover:border-brand-yellow transition-all">
+                    <div class="w-14 h-14 bg-brand-yellow/10 text-brand-yellow rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">صيانة دورية مستمرة</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">برامج صيانة وقائية وعلاجية دورية لضمان عمل المعدات بكفاءة عالية وبدون أية أعطال مفاجئة.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-brand-navy p-8 rounded-2xl border border-slate-700 hover:border-brand-yellow transition-all">
+                    <div class="w-14 h-14 bg-brand-yellow/10 text-brand-yellow rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-user-gear"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">مشغلون وفنيون محترفون</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">طاقم عمل مؤهل وحاصل على أعلى شهادات السلامة المهنية لإدارة وتشغيل المعدات في الموقع.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="bg-brand-navy p-8 rounded-2xl border border-slate-700 hover:border-brand-yellow transition-all">
+                    <div class="w-14 h-14 bg-brand-yellow/10 text-brand-yellow rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-tags"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">أسعار تنافسية</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">خطط أسعار وتأجير مرنة (يومية، شهرية، سنوية) تناسب ميزانيات كافة المشاريع.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="bg-brand-navy p-8 rounded-2xl border border-slate-700 hover:border-brand-yellow transition-all">
+                    <div class="w-14 h-14 bg-brand-yellow/10 text-brand-yellow rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-clock font-black"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">دعم على مدار 24/7</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">فريق دعم فني وطوارئ جاهز للاستجابة السريعة في أي وقت لتلبية احتياجات الموقع.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="bg-brand-navy p-8 rounded-2xl border border-slate-700 hover:border-brand-yellow transition-all">
+                    <div class="w-14 h-14 bg-brand-yellow/10 text-brand-yellow rounded-xl flex items-center justify-center text-2xl mb-6">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">تغطية واسعة</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">نصل بكافة معداتنا إلى مختلف مناطق ومدن المملكة والمشاريع الإستراتيجية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Filterable Gallery Section -->
+    <section id="gallery" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-2xl mx-auto mb-10">
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">معرض أعمالنا والمشاريع</h2>
+                <div class="w-20 h-1.5 bg-brand-yellow mx-auto mb-4 rounded-full"></div>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="flex flex-wrap justify-center gap-2 md:gap-4 mb-10">
+                <button class="filter-btn active bg-brand-dark text-white px-5 py-2 rounded-full font-semibold text-sm transition-all" data-filter="all">الكل</button>
+                <button class="filter-btn bg-slate-100 hover:bg-slate-200 text-slate-700 px-5 py-2 rounded-full font-semibold text-sm transition-all" data-filter="cranes">الرافعات الكرينات</button>
+                <button class="filter-btn bg-slate-100 hover:bg-slate-200 text-slate-700 px-5 py-2 rounded-full font-semibold text-sm transition-all" data-filter="boom">بوم لفت</button>
+                <button class="filter-btn bg-slate-100 hover:bg-slate-200 text-slate-700 px-5 py-2 rounded-full font-semibold text-sm transition-all" data-filter="scissor">رافعات مقصية</button>
+                   <button class="filter-btn bg-slate-100 hover:bg-slate-200 text-slate-700 px-5 py-2 rounded-full font-semibold text-sm transition-all" data-filter="forklift"> forklift رافعات شوكيه</button>
+            </div>
+
+            <!-- Images Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="gallery-item all relative overflow-hidden rounded-xl shadow-md group">
+                    <img src="img/5.png" alt="وصف الصورة 1" width="300"" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" alt="Project">
+                    <div class="absolute inset-0 bg-brand-dark/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                        <span class="font-bold">تنفيذ عدة مشارع متنوعه</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item cranes relative overflow-hidden rounded-xl shadow-md group">
+                    <img src="img/cr7.png" alt="وصف الصورة 1" width="300"" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" alt="Project">
+                    <div class="absolute inset-0 bg-brand-dark/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                        <span class="font-bold">مشروع بناء أبراج سكنية</span>
+                    </div>
+                </div>
+                
+                <div class="gallery-item boom relative overflow-hidden rounded-xl shadow-md group">
+                    <img src="img/11.png" alt="وصف الصورة 1" width="300"" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" alt="Project">
+                    <div class="absolute inset-0 bg-brand-dark/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                        <span class="font-bold">صيانة منشآت صناعية</span>
+                    </div>
+                </div>
+                <div class="gallery-item scissor relative overflow-hidden rounded-xl shadow-md group">
+                    <img src="img/sec1.png" alt="وصف الصورة 1" width="300"" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" alt="Project">
+                    <div class="absolute inset-0 bg-brand-dark/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                        <span class="font-bold">أعمال مستودعات مركزية</span>
+                    </div>
+                </div>
+                
+                 <div class="gallery-item forklift relative overflow-hidden rounded-xl shadow-md group">
+                    <img src="img/for3.png" alt="وصف الصورة 1" width="300"" class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500" alt="Project">
+                    <div class="absolute inset-0 bg-brand-dark/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                        <span class="font-bold">تنزيل الضائع والمود الثقيله</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- 5. Contact / Order Form Section -->
+    <!--
+    <section id="contact" class="py-20 bg-slate-900 text-white relative">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto bg-brand-navy p-8 md:p-12 rounded-3xl border border-slate-700 shadow-2xl">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold mb-2">طلب سعر / استفسار سريع</h2>
+                    <p class="text-slate-400">قم بتعبئة النموذج وسيتواصل معك فريقنا خلال أقل من ساعتين</p>
+                </div>
+
+                <form id="requestForm" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">الاسم الكامل</label>
+                        <input type="text" required class="w-full bg-slate-800 border border-slate-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-yellow">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">رقم الهاتف / الواتساب</label>
+                        <input type="tel" required class="w-full bg-slate-800 border border-slate-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-yellow" placeholder="05xxxxxxxx">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">البريد الإلكتروني</label>
+                        <input type="email" required class="w-full bg-slate-800 border border-slate-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-yellow">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">نوع المعدة المطلوبة</label>
+                        <select class="w-full bg-slate-800 border border-slate-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-yellow">
+                            <option>رافعات مقصية (Scissor Lift)</option>
+                            <option>رافعات بوم لفت (Boom Lift)</option>
+                            <option>الرافعات البرجية والكرينات</option>
+                            <option>الرافعات الشوكية (Forklifts)</option>
+                            <option>أخرى</option>
+                        </select>
+                    </div>
+                    <div class="md:col-span-2">
+                        <label class="block text-sm font-semibold mb-2">نوع الطلب ومدته</label>
+                        <input type="text" placeholder="مثال: إيجار لمدة شهر / شراء معدة جديدة" class="w-full bg-slate-800 border border-slate-600 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-yellow">
+                    </div>
+                    <div class="md:col-span-2">
+                        <button type="submit" class="w-full bg-brand-yellow text-brand-dark py-4 rounded-xl font-bold text-lg hover:bg-yellow-400 transition-all">
+                            إرسال الطلب الان <i class="fa-solid fa-paper-plane mr-2"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-slate-400 border-t border-slate-800 pt-16 pb-8">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+            <div>
+                <a href="#" class="text-2xl font-black text-brand-yellow tracking-wider inline-block mb-4">
+                    <i class="fa-solid fa-truck-pickup"></i> الرافعات الاحترافيه
+                </a>
+                <p class="text-sm leading-relaxed mb-4">الشركة الرائدة في حلول تأجير وبيع المعدات الثقيلة والرافعات في المنطقة باحترافية عالية وأعلى معدلات الأمان.</p>
+                <div class="flex gap-4 text-slate-300">
+                    <a href="‏https://wa.me/966536483411" class="hover:text-brand-yellow text-xl"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="hover:text-brand-yellow text-xl"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="hover:text-brand-yellow text-xl"><i class="fa-brands fa-location-dot"></i></a>
+                    <a href="#" class="hover:text-brand-yellow text-xl"><i class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold mb-4 border-r-4 border-brand-yellow pr-3">روابط سريعة</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#hero" class="hover:text-white">الرئيسية</a></li>
+                    <li><a href="#equipment" class="hover:text-white">أنواع الرافعات</a></li>
+                    <li><a href="#features" class="hover:text-white">مميزاتنا</a></li>
+                    <li><a href="#gallery" class="hover:text-white">المشاريع</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white font-bold mb-4 border-r-4 border-brand-yellow pr-3">ساعات العمل</h4>
+                <ul class="space-y-2 text-sm">
+                    <li>دوام 24 ساعه </li>
+                    <li>اي وقت في خدمتكم</li>
+                      </ul>
+            </div>
+            <section id="contact">
+            <div>
+                <h4 class="text-white font-bold mb-4 border-r-4 border-brand-yellow pr-3">معلومات التواصل</h4>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="tel:966536483411" class="call-btn" class="action-btn btn-call">
+  📞 إتصل بنا
+</a> </li>
+                     <li><a href="https://wa.me/966536483411" class="whatsapp-btn" target="_blank">
+                        💬 تواصل عبر واتساب
+                    </a></li>  
+                    <li><i class="fa-solid fa-envelope text-brand-yellow ml-2"></i> liftpro716@gmail.com</li>
+                     <li><i class="fa-solid fa-location-dot text-brand-yellow ml-2"></i>الرياض </li>
+                   
+                   
+              
+                </ul>
+            </div>
+            </section>
+        </div>
+
+        <div class="border-t border-slate-800 pt-6 text-center text-xs">
+            <p>© 2026 الرافعات الاحترافيه للرافعات. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <style>
+  .whatsapp-btn {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease;
+  }
+  
+  .whatsapp-btn:hover {
+    background-color: #128C7E;
+  }
+    
+   /* call bootn*/
+     .call-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff; /* لون الزر */
+    color: #ffffff;            /* لون النص */
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease;
+  }
+
+  .call-btn:hover {
+    background-color: #0056b3; /* لون الزر عند تمرير الماوس */
+  }
+</style>
+    
+    <!-- Interactive JS Scripts -->
+    <script>
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        // Gallery Filtering Feature
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => {
+                    b.classList.remove('bg-brand-dark', 'text-white');
+                    b.classList.add('bg-slate-100', 'text-slate-700');
+                });
+                btn.classList.add('bg-brand-dark', 'text-white');
+
+                const filter = btn.getAttribute('data-filter');
+
+                galleryItems.forEach(item => {
+                    if (filter === 'all' || item.classList.contains(filter)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Form Submit Alert Demo
+        document.getElementById('requestForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('شكراً لتواصلك معنا! تم استلام طلبك بنجاح وسوف يتصل بك مسؤول المبيعات قريباً.');
+            e.target.reset();
+        });
+    </script>
+</body>
+</html>
